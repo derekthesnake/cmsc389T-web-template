@@ -13,4 +13,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: git clone git@github.com:derekthesnake/cmsc389T-web-template.git
+          script: |
+            cd /pub/eguenter
+            git clone git@github.com:derekthesnake/cmsc389T-web-template.git

@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: cd cmsc389T-web-template && git pull
+          script: cd /pub/eguenter/cmsc389T-web-template && git pull
