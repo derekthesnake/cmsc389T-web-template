@@ -1,4 +1,4 @@
-name: Deploy
+name: Update
 
 on:
   push:
@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy Website
+      - name: Update Website
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
